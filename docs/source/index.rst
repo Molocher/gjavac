@@ -14,8 +14,10 @@ how to :ref:`installation` the project.
 --------
 
 .. toctree::
-    :glob:
-    智能合约简介 <智能合约简介>
-    gjavac介绍
-    gjavac 使用指南
+   :maxdepth: 2
+   :caption: Basics
+
+   智能合约简介.rst
+   gjavac介绍.rst
+   gjavac 使用指南.rst
 
