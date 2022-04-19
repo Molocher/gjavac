@@ -1,4 +1,4 @@
-Welcome to Gjavac documentation!
+欢迎查看whitecoin智能合约文档
 ===================================
 
 gjavac 用Java语言实现的可以在uvm上执行的智能合约
@@ -10,10 +10,10 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
-Contents
+目录
 --------
 
 .. toctree::
 
-   usage
-   api
+   智能合约简介
+   使用java/Kotlin编写智能合约
