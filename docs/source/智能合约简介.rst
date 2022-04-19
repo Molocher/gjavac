@@ -1,5 +1,6 @@
 智能合约简介
 ===========
+
 首先，我们所说的智能合约是在区块链(blockchain)和加密货币(cryptocurrencies)的上下文中.
 
 智能合约(smart contract)是:
