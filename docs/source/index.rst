@@ -14,6 +14,6 @@ how to :ref:`installation` the project.
 --------
 
 .. toctree::
-
+    :glob:
    智能合约简介 <智能合约简介>
    gjava/*
