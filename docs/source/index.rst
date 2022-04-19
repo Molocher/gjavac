@@ -15,5 +15,5 @@ how to :ref:`installation` the project.
 
 .. toctree::
 
-   智能合约简介
-   使用java/Kotlin编写智能合约
+   智能合约简介 <智能合约简介>
+   gjava/*
