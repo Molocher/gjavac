@@ -3,8 +3,6 @@
 
 gjavac 用Java语言实现的可以在uvm上执行的智能合约
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 .. note::
 
@@ -13,9 +11,8 @@ how to :ref:`installation` the project.
 目录
 --------
 
-.. toctree::
+.. toctree:: 
    :maxdepth: 2
-   :caption: Basics
 
    智能合约简介.rst
    gjavac介绍.rst
