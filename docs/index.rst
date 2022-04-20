@@ -20,4 +20,5 @@ gjavac 用Java语言实现的可以在uvm上执行的智能合约
    getting-started-tutorial-for-gjavac.rst
    guidance-for-gjavac.rst
    data-structure-for-gjavac.rst
+   gjava-by-example.rst
 

@@ -6,6 +6,7 @@ gjavac 使用指南
 可以按照以下步骤配置开发环境:
 
 请按照Java SDK 8+ 并正确配置环境变量
+
 * 请安装Jetbrains IDEA Community
 * 新建Java或Kotlin项目,在项目的“引用”中加入gjavac的几个.jar文件。这个项目就是用来写智能合约或者链上脚本的项目,最终我们就是要把这个项目编译到hvm字节码
 * 参照demo中例子,DemoContract1.java和DemoContract.kt是智能合约的例子。修改新建项目的源代码
