@@ -12,7 +12,6 @@ gjavac 用Java语言实现的可以在uvm上执行的智能合约
 --------
 
 .. toctree:: 
-   :maxdepth: 2
 
    智能合约简介.rst
    gjavac介绍.rst
