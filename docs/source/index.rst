@@ -19,5 +19,7 @@ how to :ref:`installation` the project.
 
    智能合约简介.rst
    gjavac介绍.rst
-   gjavac 使用指南.rst
+   gjavac使用指南.rst
+   gjavac入门教程.rst
+   gjavac数据类型.rst
 
