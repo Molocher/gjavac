@@ -1,4 +1,4 @@
-.. code-block:: gjava
+.. code-block::
   
     public class Storage {
         public String name;

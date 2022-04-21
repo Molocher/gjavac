@@ -1,4 +1,4 @@
-.. code-block:: gjava
+.. code-block::
 
     public interface MultiOwnedContractSimpleInterface {
         void on_deposit_contract_token( String arg);

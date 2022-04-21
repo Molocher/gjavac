@@ -1,4 +1,4 @@
-.. code-block:: gjava
+.. code-block::
 
     import gjavac.lib.UvmContract;
 

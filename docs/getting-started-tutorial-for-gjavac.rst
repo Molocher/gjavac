@@ -7,11 +7,18 @@
 .. image:: image/img.png
 
 通常我们在测试链上进行开发调试，当开发测试完成后，再部署到正式链使用。
-你需要什么：
-1.用于开发Java的IDE开发环境
-2.依赖的jar包 gjavac.jar
-3.编译工具 uvm_ass.exe go_package_gpc.exe
-4.正式链账户及一定数量的代币
+
+你需要什么:
+
+* 用于开发Java的IDE开发环境
+* 依赖的jar包 gjavac.jar
+  
+  * `下载gjavac.jar <https://raw.githubusercontent.com/Molocher/gjavac/main/docs/rely/gjavac.jar>`_
+* 编译工具 uvm_ass.exe go_package_gpc.exe
+  
+  * `下载uvm_ass.exe <https://raw.githubusercontent.com/Molocher/gjavac/main/docs/rely/uvm_ass.exe>`_
+  * `下载go_package_gpc.exe <https://raw.githubusercontent.com/Molocher/gjavac/main/docs/rely/go_package_gpc.exe>`_
+* 正式链账户及一定数量的代币
 
 1.开发环境
 -----------
@@ -37,9 +44,12 @@
     进入字节码根目录，执行一下命令
     java -classpath "{依赖的gjavac.jar};" gjavac.MainKt {字节码文件列表} "-o"  "输出目录"
 3.生成.out文件
-    uvm_ass.exe .ass
+    uvm_ass.exe .ass文件
+
+    
 4.生成.gpc文件
-    go_package_gpc.exe -package -binary-code=.out -meta=.json
+    go_package_gpc.exe -package -binary-code=.out文件 -meta=.json文件
+
 5.通过rpc形式注册合约上链
     curl -X POST -d "{\"id\": 1,\"method\": \"register_contract\", \"params\": [\"kevin\", 0.00000001, 50000,\"{gpc文件地址}\"]}"
 6.合约部署成功，可以调用合约中方法
@@ -57,4 +67,4 @@
 
     通过以上简单的例子我们有了一个直观的感受。智能合约的开发过程非常简单。而开发实际的应用则需要复杂的业务逻辑，也可能要用到更为复杂的数据结构和控制流程。这里可以参考具体的语法参考文档。
 
-     https://doc.xwc.com/
+    `参考文档 <https://doc.xwc.com>`_
